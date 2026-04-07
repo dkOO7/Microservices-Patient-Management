@@ -1,0 +1,4 @@
+### delete a patient from db
+DELETE  http://localhost:4000/patients/27bfcd14-38fe-4cd9-b02b-576d0ab12b83
+
+###

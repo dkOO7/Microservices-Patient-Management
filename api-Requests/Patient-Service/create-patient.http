@@ -1,0 +1,11 @@
+### create a new  patient entity
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name":"john22 doe2185 kafka",
+  "email": "kaf22ka1258_test1@gmail.com",
+  "address": "123 Mainca St, Anytown, USA",
+  "dateOfBirth": "1990-01-01",
+  "registrationDate": "2024-01-01"
+}

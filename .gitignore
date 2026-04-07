@@ -1,0 +1,107 @@
+# ==========================================
+# LEARNING MATERIALS (Keep Locally)
+# ==========================================
+START_HERE.md
+README.md
+INTERVIEW_GUIDE.md
+PROJECT_SUMMARY.md
+GITHUB_PUSH_GUIDE.md
+FILE_GUIDE.md
+INDEX.md
+
+# ==========================================
+# BUILD TOOLS & GRADLE
+# ==========================================
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# ==========================================
+# MAVEN
+# ==========================================
+target/
+.m2/
+*.jar
+*.war
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# ==========================================
+# IDE & EDITOR FILES
+# ==========================================
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+bin/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# OPERATING SYSTEM
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# GENERATED FILES
+# ==========================================
+.gradle/
+build/
+out/
+generated-sources/
+protobuf/
+
+# ==========================================
+# LOGS
+# ==========================================
+*.log
+logs/
+
+# ==========================================
+# DATABASE
+# ==========================================
+*.db
+*.sqlite
+h2.db
+
+# ==========================================
+# RUNTIME & PROCESS FILES
+# ==========================================
+*.pid
+*.seed
+*.pid.lock
+
+# ==========================================
+# APPLICATION & ENVIRONMENT
+# ==========================================
+.env
+.env.local
+application-local.properties
+
+# ==========================================
+# DOCKER
+# ==========================================
+docker-compose.override.yml
+
+# ==========================================
+# TESTING
+# ==========================================
+test-results/
+jacoco.exec
+
